@@ -22,6 +22,7 @@
   --border:.2rem solid rgba(0,0,0,.1);
   --outline: 1rem solid rgba(0,0,0,.1);
   --outline-hover:.2rem solid var(--black);
+  --darkmode : #202020;
 }
 
 html
@@ -34,7 +35,7 @@ html
 
 body
 {
-  background:#1d1d1d;
+  background:#161616;
 }
 
 .titre-infos
@@ -107,7 +108,7 @@ header .icons
 header .icons i
 
 {
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(19, 19, 19);
   padding: 14px;
   border-radius: 5px;
   margin-left: 10px;
@@ -125,7 +126,7 @@ nav
     display: flex;
     height: 80px;
     width: 100%;
-    background-color: rgb(15, 15, 15);
+    background-color: #161616;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -169,11 +170,9 @@ nav ul li a.btn-top
 
 nav .menu-btn i
 {
-  color: #838383;
   font-size: 22px;
   cursor: pointer;
   display: none;
-  color: red;
 }
 
 input[type="checkbox"]
@@ -287,7 +286,7 @@ input[type="checkbox"]
 .a-propos .box-container .box
 {
   padding:3rem 2rem;
-  background: rgb(255, 255, 255);
+  background: var(--darkmode);
   text-align: center;
   box-shadow: var(--box-shadow);
   border-radius: .5rem;
@@ -337,7 +336,7 @@ input[type="checkbox"]
 
 .rea .box-container .box
 {
-  background: rgb(255, 255, 255);
+  background: var(--darkmode);
   text-align: center;
   box-shadow: var(--box-shadow);
   border-radius: .5rem;
@@ -384,7 +383,7 @@ input[type="checkbox"]
 {
   padding:3rem 2rem;
   border-radius: .5rem;
-  background:rgb(255, 255, 255);
+  background: var(--darkmode);
   box-shadow: var(--box-shadow);
   text-align: center;
 }
@@ -434,7 +433,7 @@ input[type="checkbox"]
 {
   padding:3rem 2rem;
   border-radius: .5rem;
-  background:rgb(255, 255, 255);
+  background: ;
   box-shadow: var(--box-shadow);
   text-align: center;
 }
@@ -484,7 +483,7 @@ input[type="checkbox"]
 
 /* BAS DE PAGE DEBUT */
 .footer{
-  background: #fff;
+  background: var(--darkmode);
   width: 91.1%;
   margin: auto;
   padding: 30px;
@@ -538,7 +537,7 @@ input[type="checkbox"]
   font-size: 2rem;
   color:var(--black);
   margin-right: .2rem;
-  background: #eee;
+  background: black;
   text-align: center;
 }
 
@@ -872,7 +871,6 @@ header .icons
 
 header .icons i
 {
-  background-color: rgb(26, 26, 26);
   border-radius: 5px;
   margin-left: 5px;
   width: 3.5rem;
