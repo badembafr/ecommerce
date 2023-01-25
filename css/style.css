@@ -23,6 +23,7 @@
   --outline: 1rem solid rgba(0,0,0,.1);
   --outline-hover:.2rem solid var(--black);
   --darkmode : #202020;
+  --noir : rgb(39, 39, 39);
 }
 
 html
@@ -191,6 +192,7 @@ input[type="checkbox"]
   padding-top: 100rem;
   padding-bottom: 10rem;
   padding: 17rem 4.4%;
+  z-index: 1000;
 }
 
 
@@ -487,6 +489,8 @@ input[type="checkbox"]
   width: 91.1%;
   margin: auto;
   padding: 30px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .footer .box-container{
@@ -537,7 +541,7 @@ input[type="checkbox"]
   font-size: 2rem;
   color:var(--black);
   margin-right: .2rem;
-  background: black;
+  background: rgb(17, 17, 17);
   text-align: center;
 }
 
@@ -628,7 +632,7 @@ form .container1
   font-size: 17px;
   pointer-events: none;
   transform: translateY(-50%);
-  color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
 }
 
 .montage-pc form img
@@ -652,7 +656,7 @@ form .box input, form .message textarea
   padding: 0 18px 0 48px;
   font-size: 16px;
   border-radius: 12px;
-  border: 1px solid #e2e2e2;
+  background-color: var(--noir);
 }
 
 .box input::placeholder,
@@ -719,7 +723,7 @@ form .button-area
     display: flex;  
     justify-content: center;
     padding: 30px 10px 0px 10px;
-    background-color: white;
+    background-color: var(--darkmode);
     border-radius: 12px;
     margin: 0 4.5% 40px 4.5%;
     padding: 20px;
@@ -738,7 +742,7 @@ form .button-area
 .categories-pc .conteneur .box1 img
 {
     width: 220px;
-    background-color: hsl(0,0%,86%);
+    background-color: var(--noir);
     border-radius: 0.5rem;
     padding: 10px;
 }
@@ -746,14 +750,14 @@ form .button-area
 
 .categories-pc .conteneur .box2 h1
 {
-    color: rgb(66, 66, 66);
+    color: var(--black);
     font-size: 20px;
     padding: 10px;  
 }
 
 .categories-pc .conteneur .box2 p
 {
-    color: hsl(0,0%,50%);
+    color: var(--gris-clair);
     padding: 0 10px 0 30px;
     font-size: 13px;
     max-width: 400px;
@@ -764,7 +768,7 @@ form .button-area
 .categories-pc .conteneur .box2 ul li a
 {
     width: 40px;
-    color: black;
+    color: var(--gris-clair);
     font-size: 20Px;
     padding: 10px;
 }
@@ -772,6 +776,7 @@ form .button-area
 .categories-pc .conteneur .box2 ul li a img
 {
     width: 25px;
+    margin-right: 10px;
 }
 
 
@@ -943,6 +948,7 @@ nav ul li a:hover
   padding: 10rem 4.4%;
 }
 
+
 .rea .box-container
 {
   display: grid;
@@ -961,7 +967,6 @@ nav ul li a:hover
     display: grid;  
     justify-content: center;
     padding: 30px 10px 0px 10px;
-    background-color: white;
     border-radius: 12px;
     margin: 0 4.5% 40px 4.5%;
 }
@@ -978,15 +983,15 @@ nav ul li a:hover
 .categories-pc .conteneur .box1 img
 {
     width: 100%;
-    background-color: hsl(0,0%,86%);
     border-radius: 0.5rem;
     padding: 10px;
 }
 
 
 .categories-pc .conteneur .box2 h1
+
 {
-    color: rgb(66, 66, 66);
+    
     font-size: 20px;
     padding: 10px;  
     text-align: center;
@@ -994,7 +999,6 @@ nav ul li a:hover
 
 .categories-pc .conteneur .box2 p
 {
-    color: hsl(0,0%,50%);
     padding: 0 10px 0 30px;
     font-size: 13px;
     max-width: 400px;
@@ -1005,7 +1009,6 @@ nav ul li a:hover
 .categories-pc .conteneur .box2 ul li a
 {
 
-    color: black;
     font-size: 15Px;
     padding: 10px;
     text-align: left;
@@ -1027,7 +1030,6 @@ nav ul li a:hover
 .categories-pc .conteneur .box3 .btn-shop li
 {
   list-style-type: none;
-  background-color: var(--black);
   border-radius: 0.5rem;
   width: 150px;
   height: 40px;
@@ -1037,7 +1039,6 @@ nav ul li a:hover
 {
   list-style-type: none;
   border-radius: 0.5rem;
-  color: white;
   text-decoration: none;
   font-size: 14px;
 }
