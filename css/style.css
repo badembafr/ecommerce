@@ -319,6 +319,19 @@ input[type="checkbox"]
   line-height: 1.8;
   color:var(--gris-clair);
   padding:1rem 0;
+  text-align: center;
+  margin: auto;
+}
+
+.a-propos .box-container .box p.i
+{
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color:var(--gris-clair);
+  padding:1rem 0;
+  text-align: justify;
+  max-width: 90%;
+  margin: auto;
 }
 /* A PROPOS FIN */
 
