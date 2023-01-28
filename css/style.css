@@ -15,14 +15,14 @@
 
 :root
 {
-  --gris:#838383;
-  --black:#808080;
-  --gris-clair:rgb(175, 175, 175);
+  --gris: white;
+  --black:white;
+  --gris-clair: white;
   --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
   --border:.2rem solid rgba(0,0,0,.1);
   --outline: 1rem solid rgba(0,0,0,.1);
   --outline-hover:.2rem solid var(--black);
-  --darkmode : #202020;
+  --darkmode : #3e3f4b;
   --noir : rgb(39, 39, 39);
 }
 
@@ -36,8 +36,9 @@ html
 
 body
 {
-  background:#161616;
+  background: #343541;
 }
+
 
 .titre-infos
 {
@@ -50,11 +51,11 @@ body
 
 .titre-infos span
 {
-  background: var(--gris);
   color:#fff;
   display: inline-block;
   padding:.5rem 3rem;
   border-radius: 3rem;
+  background-color: var(--darkmode);
 }
 
 .espace
@@ -64,7 +65,7 @@ body
 
 .ici
 {
-  background-color: #5a5a5a;
+  background-color: #3e3f4b;
 }
 
 .btn
@@ -75,50 +76,47 @@ body
   font-size: 1.7rem;
   border-radius: .5rem;
   border:.2rem solid var(--black);
-  color:rgb(134, 134, 134);
+  color: var(--black);
   cursor: pointer;
   background: none;
 }
 
 
-/* MENU DEBUT */
-nav .logo a
-{
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-}
 
-nav .logo a span
+/* MENU DEBUT */
+
+header .logo img
 {
-    color: var(--black);
+  position: fixed  ;
+  width: 100px;
+  z-index: 4000;
+  top: 26px;
+  left: 5%;
+  
 }
 
 header .icons
-
 {
 
   position: fixed;
-  right: 10px;
+  right: 5%;
   z-index: 2000;
   color: white;
-  top: 18px;
-  right: 150px;
+  top: 21px;
 }
 
 header .icons i
 
 {
-  background-color: rgb(19, 19, 19);
-  padding: 14px;
+  background-color: #3e3f4b;
+  padding: 11px;
   border-radius: 5px;
   margin-left: 10px;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 4rem;
+  height: 4rem;
   font-size: 18px;
   text-align: center;
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
 
 
@@ -127,11 +125,10 @@ nav
     display: flex;
     height: 80px;
     width: 100%;
-    background-color: #161616;
+    background-color: #202123;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 0 400px 0 150px;
     position: fixed;
     z-index: 1000;
 }
@@ -147,13 +144,14 @@ nav ul li a
 {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     padding: 8px 15px;
     border-radius: 1rem;
     letter-spacing: 1px;
     transition: all 0.3s ease;
-    margin: 0 5px;
+    text-align: right;
+    margin-right: 10px;
 }
 
 
@@ -193,83 +191,12 @@ input[type="checkbox"]
   padding-bottom: 10rem;
   padding: 17rem 4.4%;
   z-index: 1000;
+  border-radius: 10px;
+  margin: 20px 2% 0 2%;
+  box-shadow: 0 .5rem 1.5rem rgba(255, 255, 255, 0.1);
 }
-
-
 
 /* BANNER FIN */
-
-/* PROFIL DEBUT */
-.profil
-{
-  background-color:#111111;
-}
-
-.profil .conteneur{
-    display: flex;  
-    text-align: center;
-    justify-content: center;
-    padding: 30px 20px 20px 20px;
-}
-
-.profil .conteneur .box1
-{
-  padding-left: 20px;
-}
-
-.profil .conteneur .box1
-{
-  padding-right: 20px;
-}
-
-.profil .conteneur .box1 img
-{
-    width: 300px;
-    padding: 5px;
-}
-
-.profil .conteneur .box2 p
-{
-    color: white;
-    font-size: 1000%;
-    text-align: left;
-}
-
-.profil .conteneur .box2 ul li
-{
-    text-align: left;
-    color: #6a6a6a;
-    font-size: 300%;
-}
-
-.profil .conteneur .box2 ul li span
-{
-    color: white;
-}
-
-.profil .conteneur .box2 .mon-cv li
-{
-  list-style-type: none;
-  background-color: hsl(250,69%,61%);
-  margin: 9% 8%;
-  border-radius: 0.5rem;
-  width: 100px;
-  height: 40px;
-  padding-top: 8px;
-}
-
-.profil .conteneur .box2 .mon-cv li a
-{
-  list-style-type: none;
-  border-radius: 0.5rem;
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-}
-/* PROFIL FIN */
-
-
-
 
 
 /* A PROPOS DEBUT */
@@ -492,6 +419,8 @@ input[type="checkbox"]
   border-radius: 1rem;
   margin-bottom: 20px;
 }
+
+
 /* AVIS FIN */
 
 
@@ -554,7 +483,7 @@ input[type="checkbox"]
   font-size: 2rem;
   color:var(--black);
   margin-right: .2rem;
-  background: rgb(17, 17, 17);
+  background: #343541;
   text-align: center;
 }
 
@@ -641,24 +570,20 @@ form .container1
   position: absolute;
   top: 50%;
   left: 18px;
-  color: #ccc;
   font-size: 17px;
   pointer-events: none;
   transform: translateY(-50%);
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255); red
 }
 
 .montage-pc form img
 {
   position: absolute;
-  top: 50%;
+  top: 14px;
   left: 14px;
-  color: #ccc;
   font-size: 17px;
-  pointer-events: none;
-  transform: translateY(-50%);
   height: 23px;
-  color: black;
+
 }
 
 form .box input, form .message textarea
@@ -669,26 +594,27 @@ form .box input, form .message textarea
   padding: 0 18px 0 48px;
   font-size: 16px;
   border-radius: 12px;
-  background-color: var(--noir);
+  background-color: var(--darkmode);
+  color: white;
 }
 
 .box input::placeholder,
 .message textarea::placeholder
 {
-  color: #ccc;
+  color: rgb(182, 182, 182);
 }
 
 .box input:focus,
 .message textarea:focus
 {
   padding-left: 47px;
-  border: 2px solid #858585;
+  border: 2px solid white;
 }
 
 .box input:focus ~ i,
 .message textarea:focus ~ i
 {
-  color: #5c5c5c;
+  color: white;
 }
 
 form .button-area
@@ -700,14 +626,13 @@ form .button-area
 
 .button-area button
 {
-  color: #fff;
+  background-color: white;
   border: none;
   outline: none;
   font-size: 18px;
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: var(--gris);
   transition: background 0.3s ease;
   margin: auto;
   width: 100%;
@@ -755,7 +680,7 @@ form .button-area
 .categories-pc .conteneur .box1 img
 {
     width: 220px;
-    background-color: var(--noir);
+    background-color: #343541;
     border-radius: 0.5rem;
     padding: 10px;
 }
@@ -803,7 +728,7 @@ form .button-area
 .categories-pc .conteneur .box3 .btn-shop li
 {
   list-style-type: none;
-  background-color: var(--black);
+  background-color: #343541;
   border-radius: 0.5rem;
   width: 150px;
   height: 40px;
@@ -816,9 +741,9 @@ form .button-area
 {
   list-style-type: none;
   border-radius: 0.5rem;
-  color: white;
   text-decoration: none;
   font-size: 14px;
+  color: white;
 }
 
 .categories-pc .conteneur .box3 p
@@ -827,6 +752,7 @@ form .button-area
   border-radius: 0.5rem;
   text-decoration: none;
   font-size: 50px;
+  color: white;
 }
 
 /* PC CATEGORIES FIN */
@@ -838,7 +764,39 @@ form .button-area
     padding: 0 30px 0 20px;
   }
 }
-@media (max-width: 1383px) {
+@media (max-width: 1000px) {
+
+  header .logo img
+  {
+    left: 21%;
+    top: 28.5px;
+    
+  }
+
+  header .icons
+{
+
+  position: fixed;
+  right: 5%;
+  z-index: 2000;
+  color: white;
+  top: 24px;
+}
+
+header .icons i
+
+{
+  background-color: #3e3f4b;
+  padding: 7px;
+  padding-top: 8.5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer; 
+}
 
 .titre-infos
 {
@@ -851,54 +809,24 @@ form .button-area
 
 .titre-infos span
 {
-  background: var(--gris);
-  color:#fff;
   display: inline-block;
   padding:.5rem 3rem;
   border-radius: 3rem;
+  background-color: var(--darkmode);
 }
 
-nav .logo a
-{
-  color:white;
-  font-size: 24px;
-  font-weight: 600;
-  padding: 30px;
-  margin-left: 9px;
-}
 
 nav .menu-btn i
 {
   position: absolute;
-  left: 15px;
-  top: 30px;
+  left: 5%;
+  top: 27px;
   display: block;
   color: white;
+  font-size: 30px;
 }
 
-header .icons
-{
 
-  position: fixed;
-  right: 10px;
-  z-index: 2000;
-  color: white;
-  top: 23px;
-  right: 15px;
-}
-
-header .icons i
-{
-  border-radius: 5px;
-  margin-left: 5px;
-  width: 3.5rem;
-  height: 3.5rem;
-  font-size: 15px;
-  text-align: center;
-  text-align: center;
-  padding: 10px;
-  
-}
 
 #click:checked ~ .menu-btn i:before
 {
@@ -908,14 +836,14 @@ header .icons i
 nav ul
 {
   position: absolute;
-  top: 80px;
+  top: 79px;
   left: -100%;
-  height: 480%;
-  width: 90%;
+  height: 10000000%;
+  width: 100%;
   text-align: center;
   display: block;
   transition: 1s;
-  background-color: rgb(78, 77, 77);
+  background-color: #202123;
   z-index: 1000;
   border-bottom-right-radius: 1rem;
 }
@@ -1069,5 +997,4 @@ nav ul li a:hover
 }
 
 /* RESPONNSIVE MOBILE FIN */
-
 
