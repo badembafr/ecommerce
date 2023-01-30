@@ -681,7 +681,6 @@ form .button-area
 .categories-pc .conteneur .box1 img
 {
     width: 220px;
-    background-color: rgb(59, 60, 70);
     border-radius: 12px;
     padding: 10px;
 }
@@ -817,20 +816,27 @@ form .button-area
 
 .pc-details .conteneur .box1
 {
-  padding-right: ;
+  margin-right: 30px;
+  background-color: rgb(59, 60, 70);
+  border-radius: 12px;
+  padding: 20px;
 }
 
 .pc-details .conteneur .box1 img
 {
-    width: 100%;
-    background-color: rgb(59, 60, 70);
+    width: 80%;
     border-radius: 12px;
     padding: 10px;
+    margin-top: 10px  ;
+    
 }
 
 .pc-details .conteneur .box2
 {
-    width: 30%; 
+    width: 30%;
+    background-color: rgb(59, 60, 70);
+    padding: 10px;
+    border-radius: 12px;
 }
 
 .pc-details .conteneur .box2 h1
@@ -861,6 +867,7 @@ form .button-area
 {
     text-align: left;
     padding: 10Px;
+    padding-top: 40px;
 }
 
 .pc-details .conteneur .box2 ul li
@@ -871,7 +878,8 @@ form .button-area
 
 .options
 {
-  display: flex;
+  display: grid ;
+  margin-top: 10px;
 }
 
 .options p
@@ -879,20 +887,24 @@ form .button-area
   background-color: #8b58b4;
   margin: 10px;
   border-radius: 12px;
+
 }
 
 .pc-details .conteneur .box3
 {
   padding: 10px;
-  padding-top: 13rem;
+  padding-top: 11rem;
   text-align: center;
+  background-color: rgb(59, 60, 70);
+  border-radius: 12px;
+  margin-left: 30px;
 }
 
 .pc-details .conteneur .box3 .btn-shop li
 {
   list-style-type: none;
   background-color: #66ba6a;
-  border-radius: 50px;
+  border-radius: 1rem;
   width: 200px;
   height: 40px;
   padding-top: 8px;
@@ -901,10 +913,9 @@ form .button-area
   margin: auto;
 }
 
-.pc-details .conteneur .box3 .btn-shop li a
+.pc-details .conteneur .box3 .btn-shop li 
 {
   list-style-type: none;
-  border-radius: 0.5rem;
   text-decoration: none;
   font-size: 14px;
   color: white;
@@ -912,7 +923,7 @@ form .button-area
 
 .pc-details .conteneur .box3 p.limit
 {
-  color: #66ba6a;
+  color: #e6b251;
   font-size: 20px;
   padding-top: 5px;
   
