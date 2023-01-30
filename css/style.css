@@ -681,7 +681,7 @@ form .button-area
 .categories-pc .conteneur .box1 img
 {
     width: 220px;
-    background-color: #d4ba7f;
+    background-color: rgb(59, 60, 70);
     border-radius: 12px;
     padding: 10px;
 }
@@ -766,6 +766,169 @@ form .button-area
 
 /* PC CATEGORIES FIN */
 
+/* PC DETAILS DEBUT */
+.pc-details
+{
+  text-align: center;
+  
+  
+}
+
+.pc-details .titre
+{
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  
+}
+
+.pc-details p
+{
+  color: rgb(199, 199, 199);
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  
+}
+
+.pc-details h1
+{
+  color: #cdb686;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.pc-details .conteneur{
+    display: flex;  
+    justify-content: center;
+    padding: 30px 10px 0px 10px;
+    border-radius: 12px;
+    margin: 0 4.5% 40px 4.5%;
+    padding: 20px;
+}
+
+.pc-details .conteneur .box1
+{
+  padding-left: ;
+}
+
+.pc-details .conteneur .box1
+{
+  padding-right: ;
+}
+
+.pc-details .conteneur .box1 img
+{
+    width: 100%;
+    background-color: rgb(59, 60, 70);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.pc-details .conteneur .box2
+{
+    width: 30%; 
+}
+
+.pc-details .conteneur .box2 h1
+{
+    color: var(--black);
+    font-size: 20px;
+    padding: 10px;  
+}
+
+.pc-details .conteneur .box2 p
+{
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    text-align: justify;
+    max-width: 100%;
+}
+
+.pc-details .conteneur .box2 ul li a
+{
+    width: 40px;
+    color: var(--gris-clair);
+    font-size: 20Px;
+    padding: 10px;
+}
+
+.pc-details .conteneur .box2 ul 
+{
+    text-align: left;
+    padding: 10Px;
+}
+
+.pc-details .conteneur .box2 ul li
+{
+    font-size: 15px;
+    color: white;
+}
+
+.options
+{
+  display: flex;
+}
+
+.options p
+{
+  background-color: #8b58b4;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.pc-details .conteneur .box3
+{
+  padding: 10px;
+  padding-top: 13rem;
+  text-align: center;
+}
+
+.pc-details .conteneur .box3 .btn-shop li
+{
+  list-style-type: none;
+  background-color: #66ba6a;
+  border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  padding-top: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  margin: auto;
+}
+
+.pc-details .conteneur .box3 .btn-shop li a
+{
+  list-style-type: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+
+.pc-details .conteneur .box3 p.limit
+{
+  color: #66ba6a;
+  font-size: 20px;
+  padding-top: 5px;
+  
+}
+
+.pc-details .conteneur .box3 p
+{
+  list-style-type: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 500;
+  color: #e26464;
+}
+
+/* PC DETAILS FIN */
 
 /* RESPONNSIVE MOBILE DEBUT */
 @media (max-width: 1000px){
