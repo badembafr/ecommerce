@@ -105,7 +105,7 @@ header .icons
   top: 21px;
 }
 
-header .icons i
+header .icons a i
 
 {
   background-color: #3e3f4b;
@@ -117,6 +117,7 @@ header .icons i
   font-size: 18px;
   text-align: center;
   cursor: pointer; 
+  color: white;
 }
 
 
