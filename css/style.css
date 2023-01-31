@@ -942,6 +942,8 @@ form .button-area
 
 /* PC DETAILS FIN */
 
+
+/* 404 DEBUT */
 .erreur
 {
   margin: auto;
@@ -967,6 +969,62 @@ form .button-area
   text-align: center;
   margin: auto;
   width: 50%;
+}
+/* 404 FIN */
+
+.telechargements
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.telechargements .dl h2
+{
+  text-align: center;
+  color: #d5b875;
+  margin: 20Px;
+}
+
+
+.telechargements .dl .box li
+{
+  list-style-type: none;
+  background-color: var(--darkmode);
+  border-radius: 0.5rem;
+  width: 90%;
+  height: 40px;
+  padding-top: 8px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  
+}
+
+.telechargements .dl .box li a
+{
+  list-style-type: none;
+  border-radius: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  
+}
+
+.telechargements .dl .box li a:hover
+{
+  color: #d5b875;
+}
+
+.telechargements .dl .box li i
+{
+  color: white;
+  position: absolute;
+  left: 6%;
+  margin-top: 5px;
+}
+
+.telechargements .dl .box li i:hover
+{
+  color: #000;
 }
 
 /* RESPONNSIVE MOBILE DEBUT */
@@ -1126,6 +1184,8 @@ nav ul li a:hover
 
 /* PC CATEGORIES FIN */
 
+/* PC DETAILS DEBUT */
+
 .pc-details .conteneur{
     display: grid;
     padding-top: 10Px;
@@ -1159,6 +1219,7 @@ nav ul li a:hover
 {
   padding-top: 0;
 }
+/* PC DETAILS FIN */
 
 }
 
