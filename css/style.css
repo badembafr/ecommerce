@@ -942,6 +942,33 @@ form .button-area
 
 /* PC DETAILS FIN */
 
+.erreur
+{
+  margin: auto;
+  text-align: center;
+}
+
+.erreur h1
+{
+  font-size: 150px;
+  text-align: center;
+  color: white;
+}
+
+.erreur p
+{
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.erreur img
+{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
 /* RESPONNSIVE MOBILE DEBUT */
 @media (max-width: 1000px){
   nav{
