@@ -1094,13 +1094,43 @@ nav ul li a:hover
     text-align: center;
 }
 
-.categories-pc .conteneur .box3
-{
-    padding-top: 1rem;
 
-}
 
 /* PC CATEGORIES FIN */
+
+.pc-details .conteneur{
+    display: grid;
+    padding-top: 10Px;
+}
+
+.pc-details .conteneur .box2
+{
+    width: 100%;
+    margin-bottom: 10Px;
+}
+
+.pc-details .conteneur .box1 
+{
+    width: 100%;
+    margin-bottom: 10Px;
+}
+
+.pc-details .conteneur .box3
+{
+    width: 100%;
+    margin: auto;
+}
+
+.pc-details .conteneur{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.pc-details .conteneur .box3
+{
+  padding-top: 0;
+}
 
 }
 
