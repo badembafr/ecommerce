@@ -118,6 +118,8 @@ header .icons a i
 }
 
 
+
+
 nav
 {
     display: flex;
@@ -1039,29 +1041,28 @@ form .button-area
   }
 
   header .icons
-{
+  {
 
-  position: fixed;
-  right: 5%;
-  z-index: 2000;
-  color: white;
-  top: 24px;
-}
+    position: fixed;
+    right: 5%;
+    z-index: 2000;
+    top: 26px;
+  }
 
-header .icons i
+  header .icons a i
 
-{
-  background-color: #3e3f4b;
-  padding: 7px;
-  padding-top: 8.5px;
-  border-radius: 5px;
-  margin-left: 10px;
-  width: 3.5rem;
-  height: 3.5rem;
-  font-size: 18px;
-  text-align: center;
-  cursor: pointer; 
-}
+  {
+    background-color: #3e3f4b;
+    padding: 9px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer; 
+    color: #d4b776;
+  }
 
 .titre-infos
 {
