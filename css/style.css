@@ -542,7 +542,7 @@ input[type="checkbox"]
 {
   padding: 10px;
   font-size: 20px;
-  color: var(--gris);
+  color: #d8b86e;
 }
 
 .montage-pc form.disabled
@@ -573,7 +573,7 @@ form .container1
   font-size: 17px;
   pointer-events: none;
   transform: translateY(-50%);
-  color: rgb(255, 255, 255); red
+  color: white; 
 }
 
 .montage-pc form img
@@ -819,11 +819,12 @@ form .button-area
   background-color: rgb(59, 60, 70);
   border-radius: 12px;
   padding: 20px;
+  width: 400px;
 }
 
 .pc-details .conteneur .box1 img
 {
-    width: 80%;
+    width: 100%;
     border-radius: 12px;
     padding: 10px;
     margin-top: 10px  ;
