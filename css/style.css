@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 *
@@ -21,7 +19,7 @@
   --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
   --border:.2rem solid rgba(0,0,0,.1);
   --outline: 1rem solid rgba(0,0,0,.1);
-  --outline-hover:.2rem solid var(--black);
+  --outline-hover:.2rem solid #d4b776;
   --darkmode : #3e3f4b;
   --noir : rgb(39, 39, 39);
 }
@@ -75,7 +73,7 @@ body
   padding:.8rem 3rem;
   font-size: 1.7rem;
   border-radius: .5rem;
-  border:.2rem solid var(--black);
+  border:.2rem solid #d4b776;
   color: var(--black);
   cursor: pointer;
   background: none;
@@ -101,7 +99,6 @@ header .icons
   position: fixed;
   right: 5%;
   z-index: 2000;
-  color: white;
   top: 21px;
 }
 
@@ -117,7 +114,7 @@ header .icons a i
   font-size: 18px;
   text-align: center;
   cursor: pointer; 
-  color: white;
+  color: #d4b776;
 }
 
 
@@ -238,7 +235,7 @@ input[type="checkbox"]
 {
   font-size: 2.5rem;
   line-height: 1.8;
-  color:var(--black);
+  color: #ccb688;
 }
 
 .a-propos .box-container .box p
@@ -297,7 +294,7 @@ input[type="checkbox"]
 {
   font-size: 2rem;
   line-height: 1.8;
-  color:var(--black);
+  color: #ccb688;
 }
 
 .rea .box-container .box p
@@ -759,7 +756,7 @@ form .button-area
   list-style-type: none;
   border-radius: 0.5rem;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 41px;
   font-weight: 500;
   color: #e26464;
 }
@@ -786,7 +783,6 @@ form .button-area
 .pc-details p
 {
   color: rgb(199, 199, 199);
-  padding: 10px;
   font-size: 13px;
   text-align: center;
   
@@ -894,7 +890,7 @@ form .button-area
 .pc-details .conteneur .box3
 {
   padding: 10px;
-  padding-top: 11rem;
+  padding-top: 14rem;
   text-align: center;
   background-color: rgb(59, 60, 70);
   border-radius: 12px;
@@ -1219,9 +1215,23 @@ nav ul li a:hover
 {
   padding-top: 0;
 }
+
+.pc-details .conteneur .box1
+{
+  margin-right: 0;
+  background-color: rgb(59, 60, 70);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.pc-details h1
+{
+
+  font-size: 25px;
+  
+}
 /* PC DETAILS FIN */
 
 }
 
 /* RESPONNSIVE MOBILE FIN */
-
